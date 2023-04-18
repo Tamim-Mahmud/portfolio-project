@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav style */
+nav ul {
+    display: flex;
+    margin-right: 200px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+.primary-color {
+    color: #FD6E0A;
+
+}
+
+.secondary-color {
+    color: grey;
+}
+
+.nav-section {
+    margin-left: 188px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #181818;
+}
+
+.header {
+    margin: 0;
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+
+
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+/* button */
+.primary-btn {
+    background: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+/* Banner design */
+.banner {
+    display: flex;
+
+    margin: 50px 185px;
+    align-items: center;
+}
+
+.banner-gret {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-author {
+    font-size: 70px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 35px;
+    ;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 19px;
+}
+
+.image {}
+
+/* about section */
+main {
+    max-width: 1140px;
+    margin-left: 230px;
+
+
+}
+
+.about {
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+}
+
+.about-heading {
+
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about-description {
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+main ul ul {
+    margin-right: 50px;
+}
+
+main section section {
+    display: flex;
+
+}
+
+section>ul li {
+    list-style: none;
+
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.about-inner-des {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+/* Skills design */
+.skills {
+
+    text-align: center;
+    padding: 0px 150px;
+}
+
+.skills-head {
+    margin-top: 130px;
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.skills-description {
+
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
