@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -84,7 +84,7 @@ nav ul li {
     /* margin-left:180px;
     margin-right: 70px;
     margin-bottom:-2px; */
-    margin: 0px 70px 0px 185px ;
+    margin: 0px 70px 0px 185px;
 }
 
 .banner-gret {
@@ -98,7 +98,7 @@ nav ul li {
     font-weight: 700;
     color: #181818;
     margin-bottom: 35px;
-    
+
 }
 
 .banner-description {
@@ -226,4 +226,115 @@ section>ul li {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* Resume */
+.resume-title {
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+
+}
+
+.resume {
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+}
+
+.experience {
+    margin-left: 80px;
+}
+
+.ed-title,
+.experience-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.degree,
+.work-experience {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.degree-name,
+.designation {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.degree-institution,
+.duration {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.degree-description,
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.primary-btn-middle {
+    background: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    margin-left: 470px;
+    margin-top: 50px;
+    margin-bottom: 113px;
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 230px;
+}
+
+.connect {
+    width: 562px;
+}
+
+.connect-title,
+.message-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.connect-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.message {
+    text-align: justify;
+
+}
+
+.msg-field,
+.message-title {
+    list-style: none;
+    margin-left: 120px;
+    padding: 0px;
+    text-align: left;
 }
