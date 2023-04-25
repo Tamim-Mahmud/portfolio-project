@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,7 +13,7 @@ nav ul {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 51px;
+    padding-top: 51px;
 
 
 }
@@ -295,46 +295,49 @@ section>ul li {
     border: 0;
     margin-left: 470px;
     margin-top: 50px;
-    margin-bottom: 113px;
-
+    margin-bottom: 120px;
 }
 
-/* footer */
-.footer {
-    display: flex;
-    margin-top: 130px;
-    margin-left: 230px;
-}
-
+/* connect secetion */
 .connect {
-    width: 562px;
+    margin: 0;
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 150px 150px;
+
 }
 
-.connect-title,
-.message-title {
+.social-title {
+    margin-bottom: 25px;
     font-weight: 700;
     font-size: 35px;
     color: #181818;
-    margin-bottom: 20px;
-    justify-content: space-between;
 }
 
-.connect-description {
+.message input,
+textarea {
+
+    border: 0px;
+
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 16px; 
+}
+.message input{
+    height:64px;
+    width:290px;
+}
+
+
+
+.social-description {
     font-weight: 400;
     font-size: 16px;
-    color: #474747;
-    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 35px;
 }
-
-.message {
-    text-align: justify;
-
-}
-
-.msg-field,
-.message-title {
-    list-style: none;
-    margin-left: 120px;
-    padding: 0px;
-    text-align: left;
+.social-icon {
+    margin-right: 25px;
 }
