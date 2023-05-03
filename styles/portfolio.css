@@ -390,6 +390,9 @@ textarea {
     .header{
         background-image: none;
     }
+    .primary-btn-middle {
+        margin-left: 40px;
+    }
 }
 
 .hide {
