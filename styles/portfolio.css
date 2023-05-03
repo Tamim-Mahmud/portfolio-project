@@ -194,7 +194,6 @@ section>ul li {
     display: flex;
     gap: 10px;
     text-align: left;
-
     max-width: 1140px;
 
 }
@@ -305,7 +304,8 @@ section>ul li {
     gap: 117px;
     background: #FFF8F3;
     padding: 150px 150px;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+    ;
 
 }
 
@@ -323,11 +323,12 @@ textarea {
 
     margin-bottom: 25px;
     padding-left: 10px;
-    font-size: 16px; 
+    font-size: 16px;
 }
-.message input{
-    height:64px;
-    width:290px;
+
+.message input {
+    height: 64px;
+    width: 290px;
 }
 
 
@@ -339,6 +340,57 @@ textarea {
     font-size: 16px;
     margin-bottom: 35px;
 }
+
 .social-icon {
     margin-right: 25px;
+}
+
+@media screen and (max-width:567px) {
+    .main {
+        width: 90%;
+        margin: 0;
+        font-size: 50%;
+    }
+
+    .skill-container,
+    .banner,.resume,.skills,.about ,.connect{
+        flex-direction: column;
+        
+      
+        padding: 10px 20px;
+
+    }
+    nav{
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .nav-section,.ul-item>li{
+        margin: 0;
+        padding: 10px;;
+        
+    }
+    
+    .banner,nav{
+        padding:0 20p;
+        margin:0 30px;
+    }
+    .social-description{
+        width:80%;
+    }
+    .experience,
+    .education {
+        margin: 0;
+    }
+ .about-list {
+        flex-direction: column;
+
+    }
+    .header{
+        background-image: none;
+    }
+}
+
+.hide {
+    display: none;
 }
